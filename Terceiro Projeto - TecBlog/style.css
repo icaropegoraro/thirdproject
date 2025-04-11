@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #4e4e4e;
+}
+
+/* Cabeçalho */
+#head {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo,
+#lista-menu {
+    padding: 10px;
+}
+
+/* Links gerais */
+a {
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#head a:link,
+#head a:visited {
+    color: white;
+}
+
+#head a:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
+/* Cores auxiliares */
+.white {
+    color: white;
+}
+
+/* Layout principal */
+#body {
+    width: 920px;
+    margin: 15px auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* Área de posts */
+#area-posts {
+    background-color: white;
+    width: 660px;
+}
+
+.post {
+    margin: 20px 0;
+}
+
+.post * {
+    margin: 10px;
+}
+
+#data-post {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.post a,
+.post-lateral a {
+    color: #f7b600;
+    padding: 0;
+}
+
+.post a:hover,
+.post-lateral a:hover {
+    text-decoration: underline;
+}
+
+/* Área lateral */
+#area-lateral {
+    width: 240px;
+}
+
+.post-lateral {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.post-lateral * {
+    margin: 5px;
+    padding: 5px;
+}
+
+#img2 {
+    width: 210px;
+}
+
+/* Tipografia */
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #4e4e4e;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+/* Rodapé */
+#rodape {
+    clear: both;
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+/* Botão/Link "leia mais" */
+.leia-mais {
+    border-bottom: 1px solid #ccc;
+}
